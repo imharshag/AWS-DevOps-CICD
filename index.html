@@ -39,28 +39,48 @@
             font-size: 20px;
             color:#EEF7FF;
         }
+        p {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            font-size: 18px;
+            line-height: 1.5;
+            text-align: center;
+        }
+        #Footer {
+            padding-top: 200px;
+            margin-bottom: 20px;
+            font-size: 18px;
+            line-height: 1.5;
+            text-align: center;
+        }
+        a {
+            color: #FF5F00;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #FF9F66;
+        }
         input[type="text"] {
             width: calc(100% - 22px);
-            padding: 14px;
+            padding: 10px;
             margin-bottom: 15px;
             border: 1px solid #ccc;
-            border-radius: 25px;
+            border-radius: 5px;
         }
         input[type="submit"] {
-        padding: 10px 20px;
-        cursor: pointer;
-        background-color: #5F5D9C;
-        color: #fff;
-        border: none;
-        border-radius: 5px;
-        display: inline-flex;
-        justify-content: center; 
-        align-items: center;
-        transition: background-color 0.3s ease;
-
+            padding: 10px 20px;
+            cursor: pointer;
+            background-color: #FF5F00;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
         }
         input[type="submit"]:hover {
-            background-color: #6196A6;
+            background-color: #FF9F66;
         }
         .ui-autocomplete {
             max-height: 200px;
@@ -81,13 +101,15 @@
 </head>
 <body>
     <h1>A-World</h1>
+    <p>Welcome to A-World, your destination for exploring routes!</p>
     <form id="routeForm" action="#" method="post" onsubmit="showRoute(); return false;">
-        <input type="text" name="origin" id="originInput" placeholder="Enter origin location...">
+        <input type="text" name="origin" id="originInput" placeholder="Enter Start location...">
         <br><br>
         <input type="text" name="destination" id="destinationInput" placeholder="Enter destination location...">
         <br><br>
         <input type="submit" value="Find Route">
     </form>
+    <p id="Footer">Explore the advanced version, <a href="#" target="_blank">A-word</a> and browse<a href="https://harsha-g.vercel.app/" target="_blank"> my Portfolio</a> for more projects.<br/> Don't forget to check out my <a href="https://github.com/imharshag" target="_blank">Github</a> profile for exciting contributions.</p>
 
     <!-- Google Maps API Script -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -95,16 +117,35 @@
     <script>
         $(function() {
             var availableCities = [
-                "Mumbai",
-                "Delhi",
-                "Kolkata",
-                "Bangalore",
-                "Chennai",
-                "Hyderabad",
-                "Pune",
-                "Ahmedabad",
-                "Surat",
-                "Visakhapatnam"
+                    "Mumbai",
+                    "Delhi",
+                    "Kolkata",
+                    "Bangalore",
+                    "Chennai",
+                    "Hyderabad",
+                    "Pune",
+                    "Ahmedabad",
+                    "Surat",
+                    "Visakhapatnam",
+                    "Mysore",
+                    "Hubli",
+                    "Mangalore",
+                    "Belgaum",
+                    "Gulbarga",
+                    "Davangere",
+                    "Udupi",
+                    "Shimoga",
+                    "Tumkur",
+                    "Hassan",
+                    "Bidar",
+                    "Bellary",
+                    "Raichur",
+                    "Chitradurga",
+                    "Chikmagalur",
+                    "Bagalkot",
+                    "Hospet",
+                    "Ranebennur",
+                    "Sirsi"
             ];
             $("#originInput, #destinationInput").autocomplete({
                 source: availableCities
