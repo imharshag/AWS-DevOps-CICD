@@ -4,6 +4,8 @@
 
 ![A-World](preview.png)
 
+Check out the live preview of our hosted [Website](http://your-website-url.com)
+
 ### Resources
 
 - [AWS CodePipeline Documentation](https://docs.aws.amazon.com/codepipeline)
