@@ -4,7 +4,7 @@
 
 ![A-World](preview.png)
 
-Check out the live preview of our hosted [Website](http://your-website-url.com)
+Check out the live preview of our hosted [Website](https://imharshag.github.io/AWS-DevOps-CICD/)
 
 ### Resources
 
