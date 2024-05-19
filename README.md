@@ -13,6 +13,8 @@ Check out the live preview of our hosted [Website](https://imharshag.github.io/A
 - [AWS CodeDeploy Documentation](https://docs.aws.amazon.com/codedeploy)
 - [Amazon EC2 Documentation](https://docs.aws.amazon.com/ec2)
 - [Amazon S3 Documentation](https://docs.aws.amazon.com/s3)
+- References from Youtube [Video 1](https://youtu.be/p5i3cMCQ760?si=KQFFsC33osec58Re)
+- References from Youtube [Video 2](https://youtu.be/IUF-pfbYGvg?si=GVBGJM5Z_dM2qQu9)
 
 ### Workflow
 
