@@ -32,6 +32,10 @@ Check out the live preview of our hosted [Website](https://imharshag.github.io/A
 
 ***Production Deployment***: Approved changes are deployed to the production environment using AWS CodeDeploy.
 
+### Document 📄
+
+Project results and related [documents](https://drive.google.com/file/d/1LQZDPBiEmd4aYmmc1j1u7ksAM-XfVGhB/view?usp=drive_link)
+
 ### Contact
 
 For inquiries or feedback, please contact **[Harsha G](mailto:harshag3106@gmail.com)**.
