@@ -4,7 +4,7 @@
 
 ![A-World](preview.png)
 
-Check out the live preview of our hosted [Website](https://imharshag.github.io/AWS-DevOps-CICD/)
+Check out the live preview of hosted [Website](https://imharshag.github.io/AWS-DevOps-CICD/)
 
 ### Resources
 
@@ -18,7 +18,7 @@ Check out the live preview of our hosted [Website](https://imharshag.github.io/A
 
 ### Workflow
 
-***Code Commit***: Developers commit code changes to the version control repository.
+***Code Commit***: Commit code changes to the version control repository.
 
 ***Code Build***: Code changes trigger automated builds using AWS CodeBuild, compiling code and running unit tests.
 
